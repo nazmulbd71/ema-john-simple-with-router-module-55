@@ -1,6 +1,6 @@
 .form-container {
     width: 500px;
-    height: 600px;
+    height: 680px;
     background: #FFFFFF;
     border: 1px solid #0c6297;
     border-radius: 8px;
@@ -12,6 +12,7 @@
 .form-parent {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .form-title {
@@ -71,6 +72,15 @@
     font-weight: 700;
     cursor: pointer;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit-two img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
 }
 
 .footer-div {
